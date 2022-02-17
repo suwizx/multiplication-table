@@ -77,8 +77,8 @@ button:hover{
     background-color: var(--yellow-2-color);
     border: 3px solid var(--yellow-color);
     color: var(--yellow-color);
-    min-height: 70vh;
-    font-size: 20px;
+    min-height: auto;
+    font-size: 22px;
     border-radius: 20px;
-    width: 500px;
+    width: 300px;
 }
