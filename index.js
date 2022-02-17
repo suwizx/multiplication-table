@@ -4,7 +4,7 @@ let output = document.getElementById('answer');
 
 function printMultiply() {
   let number = Number(numberInput.value);
-  let outputHtml = '';
+  let outputHtml = '<p>'+'สูตรคูณแม่ '+number+'</p>';
   for (let i = 1; i <= 12; i++) {
     outputHtml += '<p>';
     outputHtml += number + ' x ' + i + ' = ' + (number*i);
