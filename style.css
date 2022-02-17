@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600&display=swap');
+
+:root{
+    --bgcolor : #e3f0ff;
+    --heading-color: #1a477f;
+    --pink-color : #f26b55;
+    --pink-2-color : #ffcece;
+    --yellow-color :#ffb600;
+    --yellow-2-color :#fff0d3;
+
+}
+
+*{
+    font-family: 'Noto Sans Thai', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bgcolor);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cotainer{
+    width: 1200px;
+   text-align: center;
+   padding: 10px;
+
+    justify-content: center;
+}
+h1,h2,h3,h4,h5,h6{
+    color:var(--heading-color)
+}
+h1{
+    font-size: 40px;
+}
+input{
+    font-size: 20px;
+    border-radius:100px;
+    padding: 3px 20px;
+    background-color: var(--pink-2-color);
+    border: 3px solid var(--pink-color);
+    color: var(--pink-color) ;
+}
+
+input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: var(--pink-color);
+}
+button{
+    font-size: 20px;
+    background-color: var(--pink-color);
+    color: #fff;
+    border: 3px solid var(--pink-color);
+    padding: 3px 10px;
+    border-radius: 100px;
+    transition: .2s;
+}
+button:hover{
+    font-size: 20px;
+    background-color: var(--pink-2-color);
+    color: var(--pink-color);
+    border: 3px solid var(--pink-color);
+    padding: 3px 10px;
+    border-radius: 100px;
+}
+.answer-box{
+    margin: 20px auto;
+    padding: 10px;
+    background-color: var(--yellow-2-color);
+    border: 3px solid var(--yellow-color);
+    color: var(--yellow-color);
+    min-height: 70vh;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 500px;
+}
